@@ -58,7 +58,7 @@ documentation = "https://nest-simulator.readthedocs.io"
 
 [project.optional-dependencies]
 mpi = [
-  "docopt>=0.6",
+  "docopt>=0.6.2",
   "mpi4py>=4.1",
 ]
 
