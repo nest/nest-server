@@ -68,7 +68,7 @@ dev = [
   "pre-commit>=4.7",
   "pytest>=9.1",
   "ruff>=0.17",
-  "ty>=0.0",
+  "ty>=0.0.93",
 ]
 
 [build-system]
