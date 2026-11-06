@@ -64,15 +64,15 @@ mpi = [
 
 [dependency-groups]
 dev = [
-  "coverage>=7.17",
+  "coverage>=7.17.1",
   "pre-commit>=4.7",
   "pytest>=9.2.0",
   "ruff>=0.17.3",
-  "ty>=0.0.94",
+  "ty>=0.0.96",
 ]
 
 [build-system]
-requires = ["uv_build>=0.13.6,<0.14.0"]
+requires = ["uv_build>=0.13.7,<0.14.0"]
 build-backend = "uv_build"
 
 [tool.uv]
