@@ -109,5 +109,5 @@ line-ending = "auto"
 python-version = "3.14"
 
 [tool.ty.rules]
+import-not-found = "ignore"
 unresolved-attribute = "ignore"
-unresolved-import = "ignore"
