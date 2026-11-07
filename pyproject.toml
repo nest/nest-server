@@ -44,7 +44,7 @@ dependencies = [
   "flask-cors>=6.0.5",
   "gunicorn>=26.2",
   "nest-simulator>=3.10",
-  "restrictedpython>=8.5",
+  "restrictedpython>=9.0",
 ]
 
 [project.scripts]
@@ -64,15 +64,15 @@ mpi = [
 
 [dependency-groups]
 dev = [
-  "coverage>=7.17",
+  "coverage>=7.17.1",
   "pre-commit>=4.7",
   "pytest>=9.2.0",
   "ruff>=0.17.3",
-  "ty>=0.0.94",
+  "ty>=0.0.97",
 ]
 
 [build-system]
-requires = ["uv_build>=0.13.6,<0.14.0"]
+requires = ["uv_build>=0.13.7,<0.14.0"]
 build-backend = "uv_build"
 
 [tool.uv]
